@@ -83,6 +83,15 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>f6725f6f04ce03574fcf89faa4b20b72ef83e4dd</Sha>
     </Dependency>
+    <!-- Microsoft.Extensions.ObjectPool and System.Collections.Immutable are needed for source-build PVP flow -->
+    <Dependency Name="Microsoft.Extensions.ObjectPool" Version="6.0.0">
+      <Uri>https://github.com/dotnet/aspnetcore</Uri>
+      <Sha>ae1a6cbe225b99c0bf38b7e31bf60cb653b73a52</Sha>
+    </Dependency>
+    <Dependency Name="System.Collections.Immutable" Version="6.0.0">
+      <Uri>https://github.com/dotnet/runtime</Uri>
+      <Sha>4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</Sha>
+    </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
     <!-- Listed as a dependency to workaround https://github.com/dotnet/cli/issues/10528 -->
